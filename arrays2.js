@@ -6,6 +6,7 @@ function isArrayLengthOdd(number) {
     return false;
   }
 }
+console.log(isArrayLengthEven([1, 2, 3]));
 
 function isArrayLengthEven(number) {
   const sizeOfArray = number.length;
